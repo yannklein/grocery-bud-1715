@@ -6,7 +6,7 @@ window.Stimulus.register("example", ExampleController);
 //////////////////////
 
 //////////////////////
-import { Controller } from "stimulus"
+import { Controller } from "@hotwired/stimulus"
 
 export default class extends Controller {
   connect() {
